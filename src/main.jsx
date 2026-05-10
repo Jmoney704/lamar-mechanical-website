@@ -66,7 +66,7 @@ function App() {
         .heroBuilding::after{content:"";position:absolute;right:20px;top:20px;width:720px;height:170px;background:linear-gradient(135deg,#111 0%,#d6a640 17%,#191109 20%,#050505 64%);clip-path:polygon(0 55%,76% 0,100% 17%,25% 70%);opacity:.90}
         .groundGlow{position:absolute;right:0;bottom:0;width:74%;height:180px;background:radial-gradient(circle at 55% 20%,rgba(214,166,64,.28),transparent 35%),linear-gradient(0deg,rgba(0,0,0,.85),transparent)}
         .nav{height:70px;position:relative;z-index:4;display:flex;align-items:center;justify-content:space-between;background:#020202;border-bottom:1px solid rgba(255,255,255,.11);padding:0 34px}
-        .logo{height:115px;width:auto;max-width:360px;object-fit:contain;display:block}
+        .logo{height:78px;width:auto;max-width:320px;object-fit:contain;display:block}
         .links{display:flex;gap:20px;align-items:center;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.045em;white-space:nowrap}
         .links a:first-child{color:#d6a640;border-bottom:2px solid #d6a640;padding-bottom:8px}
         .navBtn{border:1px solid #d6a640;color:#d6a640;padding:11px 15px}
