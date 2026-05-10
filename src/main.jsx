@@ -1,5 +1,5 @@
 import React from "react";
-
+import ReactDOM from "react-dom/client";
 export default function LamarMechanicalHomepage() {
   return (
     <main style={{
@@ -114,3 +114,8 @@ export default function LamarMechanicalHomepage() {
     </main>
   );
 }
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <LamarMechanicalHomepage />
+  </React.StrictMode>
+);
