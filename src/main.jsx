@@ -13,7 +13,7 @@ export default function LamarMechanicalHomepage() {
         background: "linear-gradient(90deg,#000 0%,#111 60%,#222 100%)"
       }}>
         <img
-          src="/logo-lamar-mechanical.png"
+          src="/logo.png"
           alt="Lamar Mechanical"
           style={{ height: 80, marginBottom: 30 }}
         />
